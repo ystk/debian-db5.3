@@ -1,14 +1,22 @@
-db5.3 (5.3.28-7~deb8u1) jessie; urgency=medium
+db5.3 (5.3.28-9) unstable; urgency=medium
 
-  * Rebuild for Debian 8.0 in clean jessie chroot.
+  * Bump required debhelper version to 9.20141221~ to it correctly set
+    ${misc:Pre-Depends}
+  * Drop Build-Depends on dpkg-dev that's not needed
 
- -- Ondřej Surý <ondrej@debian.org>  Thu, 18 Dec 2014 13:44:20 +0100
+ -- Ondřej Surý <ondrej@debian.org>  Wed, 31 Dec 2014 08:57:18 +0100
+
+db5.3 (5.3.28-8) unstable; urgency=medium
+
+  * Force dpkg-dev to 1.17.22 to have correct Pre-Depends (Closes: #773806)
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 30 Dec 2014 18:20:12 +0100
 
 db5.3 (5.3.28-7) unstable; urgency=medium
 
   * Fix typo in libdb5.3-java.maintscript (Closes: #771877)
 
- -- Ondřej Surý <ondrej@debian.org>  Thu, 18 Dec 2014 13:44:20 +0100
+ -- Ondřej Surý <ondrej@debian.org>  Thu, 04 Dec 2014 10:56:49 +0100
 
 db5.3 (5.3.28-6) unstable; urgency=medium
 

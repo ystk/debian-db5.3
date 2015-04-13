@@ -8,7 +8,7 @@ Standards-Version: 3.9.3
 # can be executed to pre-process sqlite3 components).
 # For DEB_STAGE=stage1 build tcl-dev, javahelper, default-jdk,
 # gcj-native-helper can be dropped
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20141221~),
 	       autotools-dev (>= 20100122.1),
 	       dh-autoreconf,
 	       tcl-dev,
